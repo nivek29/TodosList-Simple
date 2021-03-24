@@ -1,13 +1,27 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body{
+display: flex; 
+justify-content: center;
+}
+h1{ 
+color: darkgrey;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 80px;  
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form-todo{ 
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+min-width: 400px;
+}
+.lista{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
